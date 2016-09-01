@@ -1,0 +1,15 @@
+.login-body {
+	background-color: #43445a;
+}
+.login-body .top-fill {
+	display: block;
+	min-height: 100px;
+}
+.login-body .shadow-panel {
+	box-shadow: 5px 5px 10px #6b4d9a;
+}
+@media all (max-width: 640px) {
+	.login-body .top-fill {
+		min-height: 20px;
+	}
+}
